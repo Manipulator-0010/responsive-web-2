@@ -1,0 +1,220 @@
+html {
+scroll-behavior: smooth;
+}
+
+/*================navbar box===================*/
+#col-1, #col-2{
+    height:85px;
+}
+#col-1{
+    background:#ffff00;  
+}
+#col-1 h2{
+    text-align:center;
+    margin-top:1%;
+}
+#col-2{
+    border:2px solid #000;
+    background:#000;
+    position:fixed;
+    margin-left:50%;
+}
+
+/*============navbar link text===============*/
+#col-2 ul{
+    display:flex;
+    margin-left:2%;
+    margin-top:2%;
+}
+#col-2 ul li{
+    padding:10px 30px;
+    margin-left:25px;
+}
+#col-2 .active{
+    border:2px solid #fff;
+}
+#col-2 ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+#col-2 ul li a:hover{
+    color:#87ceeb;
+}
+
+/*==============BACKGROUND IMAGE TOP===============*/
+#bg-image-1{
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('background/background-1.jpg');
+    height:90vh;
+    background-size:cover;
+    background-position:center;
+}
+
+/*==============FIRST TITLE================*/
+#header{
+    background:#000080;
+}
+#header h1{
+    color:#fff;
+    padding:7%;
+}
+
+/*============BACKGROUND BODY COLOR===========*/
+#bg-body-color{
+    background:#000080;
+}
+
+/*===============ANIME WATCH IMAGES=============*/
+#image-cover img{
+    width: 90%;
+  height: 350px;
+  object-fit: cover;
+  border-radius:5px;
+  transition:1s ease;
+}
+#image-cover img:hover{
+    width:100%;
+    border:2px solid #ff0000;
+}
+#image-cover img, li{
+    list-style:none;
+}
+#row-1{
+    justify-content:space-between;
+}
+#container-1{
+    margin-top:2%;
+}
+
+/*===============ALL ANIME IMAGES WITH CONTENT=================*/
+#bg-image-2 img{
+    width:100%;
+    height:870px;
+    object-fit:cover;
+}
+#text-1 h2, p{
+    color:#fff;
+}
+#text-1 h2{
+    font-size:45px;
+}
+#container-2{
+    margin-top:5%;
+}
+
+/*===================BACKGROUND IMAGE FOR LOGIN FORM==================*/
+#bg-image-3{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('background/background-2.jpg');
+    height:95vh;
+    background-size:cover;
+    background-position:center;
+    margin-top:5%;
+    border-radius:7px;
+    background-attachment:fixed;
+    justify-content:center;
+    display:flex;
+}
+.box{
+    border:2px solid #fff;
+    height:600px;
+    width:30%;
+    margin-top:10%;
+    border-radius:10px;
+}
+.box label{
+    color:#fff;
+    margin-top:3%;
+    font-size:18px;
+}
+.box input{
+    text-align:center;
+    width:100%;
+    height:40px;
+    border-radius:7px;
+    margin-top:2%;
+}
+.box h1{
+    color:#fff;
+    font-size:42px;
+    text-align:center;
+    margin-top:7%;
+}
+form{
+    margin-top:10%;
+    width:75%;
+    margin-left:12%;
+}
+.box button{
+    width:80%;
+    height:47px;
+    margin-top:5%;
+    border-radius:8px;
+    text-align:center;
+    margin-left:10%;
+}
+.box .btn-1{
+    margin-top:12%;
+    background:#87ceeb;
+}
+.box .btn-2{
+    background:#ffff00;
+}
+
+/*===============ANIME PROFILE IMAGE================*/
+#row-2{
+    justify-content:center;
+    margin-top:-3%;
+    border:none;
+}
+#row-2 #box-1{
+    height:100px;
+}
+#box-1 .img-1{
+    width:100%;
+    border-radius:100%;
+    border:1px solid #87ceeb;
+    box-shadow:3px 3px 10px #87ceeb;
+}
+
+/*=====================FOOTER=====================*/
+#box-2 h1{
+    color:#fff;
+    text-align:center;
+    width:90%;
+}
+#box-2 p{
+    text-align:justify;
+    width:90%;
+}
+#row-4{
+    justify-content:space-between;
+}
+#container-4{
+    margin-top:3%;
+}
+
+/*=========================LINE===========================*/
+#container-5 h2{
+    color:#fff;
+    width:100%;
+    text-align:center;
+    margin-top:5%;
+}
+
+/*======================MY PROFILE========================*/
+#container-7{
+    margin-top:-3%;
+}
+#box-3 .img-2{
+    width:50%;
+    border-radius:100%;
+    border:1px solid #ffff00;
+    margin-left:23%;
+}
+#box-3{
+    width:15%;
+}
+#box-3 h5{
+    color:#fff;
+    width:200%;
+    margin-top:5%;
+}
